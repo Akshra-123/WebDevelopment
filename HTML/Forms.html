@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title> Forms in HTML </title>
+    </head>
+    <body>
+        <h2> Registration form </h2>
+        <form action="action.php" method="post">
+            <div>
+            <label for = "username" > Username_ </label>
+            <input type="text" id="username" name="Username" placeholder="Enter your Username">
+            </div>
+            <div>
+                <h4> Select your Gender </h4>
+            <label for ="male"> Male </label>
+            <input type="radio" id="male" name="gender">
+            </div>
+            <div>
+            <label for ="female"> Female </label>
+            <input type="radio" id="female" name="gender">
+            </div>
+            <div> 
+                <h4> Contact Number </h4>
+                <label for="number"> Contact No. </label>
+                <input type="number" pattern="[0-9]{10,15}+" id="number">
+            </div>
+            <div>
+                <h4> Select your Subject </h4>
+                <label for="subjects">  Maths </label>
+                <input type="checkbox" id="subjects" name="subjects" >
+            </div>
+            <div>
+                <label for="subjects">  Science </label>
+                <input type="checkbox" id="subjects" name="subjects" >
+            </div>
+            <div>
+                <h4> Anything your want to add!!</h4>
+                <label for="Comment"> Enter your Comment </label>
+                <br> 
+                <textarea name="Comments" rows="4" cols="90"> Enter your comments here........
+            </textarea>
+            </div>
+            <br>
+            <div>
+                <h4> Select your Section </h4>
+                <select name="Section">
+                    <option value="A"> A </option>
+                    <option value="B"> B </option>
+                    <option value="C"> C </option>
+                </select>
+            </div>
+        </form>
+    </body>
+</html>
