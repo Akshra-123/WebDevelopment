@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <Title> Inline CSS </Title>
+    </head>
+    <Body>
+        <style>
+            h1 {
+                color: greenyellow; background-color:black;
+            }
+            p {
+                
+            }
+            /* Class Selector */
+            .aqua{
+                color:blueviolet;background-color:greenyellow;
+            }
+            /* ID Selector */
+            #green{
+                color:rgb(247, 5, 46);
+            }
+            /* Child Selector */
+            div > p {
+                color:hotpink;background-color:black;
+            }
+            /* descedent selector */
+            div span {
+                color:gold;background-color:midnightblue;
+            }
+            /* Universal selector */
+            * {
+                margin:0;padding:0
+            }
+            /* Pseudo Selector */
+            a:link{
+                color:blueviolet;
+            }
+            a:visited{
+                color:rgb(102, 210, 30);
+            }
+            a:active{
+                color:yellow;
+            }
+            a:hover{
+                background-color:darkslategray;
+            }
+            /* pseudo child selector */
+            p:first-child {
+                background-color: aqua;
+            }
+
+        </style>
+        <h1>
+            Selectors in CSS !!
+        </h1>
+        <p> CSS Selector </p>
+        <p class="aqua"> Here we have used class selector so that we can change the properties of a same tag also </p>
+        <p id="green"> ID Selector </p>
+        <div> <p> This is a child selector </p> <p> I am second child of div tag </p></div>
+        <div> <article> <span> This is Descendant selector </span></article></div>
+        <a href="https://www.google.com"> Go to Google !! </a>
+
+    </Body>
+</html>
