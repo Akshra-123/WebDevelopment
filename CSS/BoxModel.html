@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> Box Model </title>
+    </head>
+    <body>
+        <style>
+            h1 {
+                color:aquamarine;
+                background-color:black;
+                margin:10px;
+                border:5px solid rgb(146, 51, 51);
+                height: 100px ;
+                box-sizing:border-box; <!-- The height is now included of both border and padding i.e content + border + padding -->
+            }
+        </style>
+        <h1 class="box">
+            Box Model!!
+        </h1>
+        <h1 class="box">
+            Box model includes margin , padding and border..
+        </h1>
+    </body>
+</html>
+
+<!-- Margin collapse is that if two elements have the margin then the one with the more margin size will be combined for both and not separate one for each other -->
