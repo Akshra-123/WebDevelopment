@@ -37,3 +37,23 @@ console.log(user.email);
 console.log(user2.email);
 
 // here both the new object and the previously created one get chnged
+
+// ++++++++++++++++++++++
+/* Primitives - Stack Memory (yha toh hm jo variable bnaenge uski ek copy milegi when we want to use in future)
+   Non-primitives - Heap Memory (yha pr actual object ka reference milega and phir ussi mein changes honge)
+*/
+
+let naam = "Alia"
+naam1 = naam
+naam1 = "AkG"
+console.log(naam)
+console.log(naam1)      // In this case the value is stored in stack and so copy is provided
+
+let user1 = {
+    username: "user1",
+    email: "user1.gmail" 
+}
+
+user2 = user1;
+user2.email = "akg@gmail.com"
+console.log(user1)
