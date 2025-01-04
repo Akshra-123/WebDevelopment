@@ -4,6 +4,11 @@
 All the primitive datatypes are call by value that means that whenever they are called their actual memory reference is not 
 given instead the value is copied and then it is given
 
+Undefined is when the variable is declared but not defined it's value is undefined and it's value is also undefined 
+
+null - It represents a non-existent or a invalid value.
+
+Symbol - It is a new data type introduced in the ES6 version of javascript. It is used to store an anonymous and unique value.
 
 Non-Primitive or Reference Types :
 Arrays , Objects , Functions
